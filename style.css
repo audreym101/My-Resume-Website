@@ -3,7 +3,7 @@ body {
   font-family: 'Newyork times', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #7c0303;
 }
 
 .container {
@@ -32,7 +32,7 @@ a:hover {
 
 /* Header Styles */
 header {
-  background-color: #d0c3c3;
+  background-color: #d60000;
   padding: 20px;
   text-align: center;
 }
@@ -45,7 +45,7 @@ header {
 
 /* Navigation Styles */
 nav {
-  background-color: #e77e7e;
+  background-color: #cc0000;
   color: #fff;
   padding: 10px;
 }
@@ -76,7 +76,7 @@ main {
 }
 
 .section {
-  background-color: #e58f8f;
+  background-color: #ca0202;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -87,8 +87,8 @@ main {
 
 /* Footer Styles */
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #b80000;
+  color: #ece4e4;
   padding: 20px;
   text-align: center;
 }
