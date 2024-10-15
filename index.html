@@ -12,7 +12,91 @@
 
   <h1>Munezero Audrey's Professional Resume Profile</h1>
 
-  <img src="images/my profile picture.jpg" alt="My Profile Picture"> 
+  <img src="images/my profile picture.jpg<!DOCTYPE html>
+<html>
+<head>
+  <title>My Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #800000; /* Wine red color */
+    }
+    h1, h2, button { 
+      font-family: 'Roboto Slab', serif; 
+    }
+    .menu-button {
+      background-color: #e77e7e; /* Wine red with a lighter shade */
+      color: #fff; /* White text */
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px; /* Rounded corners */
+      margin-bottom: 10px;
+      cursor: pointer; /* Indicate clickable */
+    }
+    .menu-button:hover {
+      background-color: #d0c3c3; /* A slightly lighter shade on hover */
+    }
+    .content-section {
+      display: none; /* Hide content sections by default */
+    }
+    .content-section.active {
+      display: block; /* Show the active content section */
+    }
+    .profile-picture {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add a box shadow */
+      border-radius: 5px; /* Optional: Add rounded corners to the image */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Munezero Audrey's Professional Resume Profile</h1>
+
+  <img src="images/my profile picture.jpg" alt="My Profile Picture" class="profile-picture"> 
+
+  <h2>Resume</h2> 
+
+  <button class="menu-button" onclick="showSection('about')">About Me</button>
+  <button class="menu-button" onclick="showSection('skills')">Skills</button>
+  <button class="menu-button" onclick="showSection('experience')">Experience</button>
+  <button class="menu-button" onclick="showSection('projects')">Projects</button>
+
+  <div id="about" class="content-section">
+    <h3>About Me</h3>
+    <p>This is where you would put your "About Me" content.</p>
+  </div>
+
+  <div id="skills" class="content-section">
+    <h3>Skills</h3>
+    <p>This is where you would list your skills.</p>
+  </div>
+
+  <div id="experience" class="content-section">
+    <h3>Experience</h3>
+    <p>This is where you would list your work experience.</p>
+  </div>
+
+  <div id="projects" class="content-section">
+    <h3>Projects</h3>
+    <p>This is where you would list your projects.</p>
+  </div>
+
+  <script>
+    function showSection(sectionId) {
+      // Hide all content sections
+      const contentSections = document.querySelectorAll('.content-section');
+      contentSections.forEach(section => section.classList.remove('active'));
+
+      // Show the selected section
+      const selectedSection = document.getElementById(sectionId);
+      selectedSection.classList.add('active');
+    }
+  </script>
+
+</body>
+</html>" alt="My Profile Picture"> 
 
   <h2>Resume</h2> 
 
@@ -146,7 +230,7 @@ My passion for women empowerment drives me to make a positive impact in my commu
 
   <h1>Munezero Audrey's Professional Resume Profile</h1>
 
-  <img src="https://via.placeholder.com/150" alt="My Profile Picture"> 
+  <img src="images/my profile picture.jpg" alt="My Profile Picture"> 
 
   <h2>Resume</h2> 
 
@@ -194,7 +278,93 @@ My passion for women empowerment drives me to make a positive impact in my commu
                     <li>customer service</li>
                     <li>data analysis</li>
                     <li>coding</li>
-                </ul>
+                </ul><!DOCTYPE html>
+<html>
+<head>
+  <title>My Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #800000; /* Wine red color */
+    }
+    h1, h2, button { 
+      font-family: 'Roboto Slab', serif; 
+    }
+    .menu-button {
+      background-color: #e77e7e; /* Wine red with a lighter shade */
+      color: #fff; /* White text */
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px; /* Rounded corners */
+      margin-bottom: 10px;
+      cursor: pointer; /* Indicate clickable */
+    }
+    .menu-button:hover {
+      background-color: #d0c3c3; /* A slightly lighter shade on hover */
+    }
+    .content-section {
+      display: none; /* Hide content sections by default */
+    }
+    .content-section.active {
+      display: block; /* Show the active content section */
+    }
+    img {
+      width: 160px; /* Set the width */
+      height: auto; /* Let the height adjust automatically */
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add a box shadow */
+      border-radius: 5px; /* Optional: Add rounded corners to the image */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Munezero Audrey's Professional Resume Profile</h1>
+
+  <img src="images/my profile picture.jpg" alt="My Profile Picture"> 
+
+  <h2>Resume</h2> 
+
+  <button class="menu-button" onclick="showSection('about')">About Me</button>
+  <button class="menu-button" onclick="showSection('skills')">Skills</button>
+  <button class="menu-button" onclick="showSection('experience')">Experience</button>
+  <button class="menu-button" onclick="showSection('projects')">Projects</button>
+
+  <div id="about" class="content-section">
+    <h3>About Me</h3>
+    <p>This is where you would put your "About Me" content.</p>
+  </div>
+
+  <div id="skills" class="content-section">
+    <h3>Skills</h3>
+    <p>This is where you would list your skills.</p>
+  </div>
+
+  <div id="experience" class="content-section">
+    <h3>Experience</h3>
+    <p>This is where you would list your work experience.</p>
+  </div>
+
+  <div id="projects" class="content-section">
+    <h3>Projects</h3>
+    <p>This is where you would list your projects.</p>
+  </div>
+
+  <script>
+    function showSection(sectionId) {
+      // Hide all content sections
+      const contentSections = document.querySelectorAll('.content-section');
+      contentSections.forEach(section => section.classList.remove('active'));
+
+      // Show the selected section
+      const selectedSection = document.getElementById(sectionId);
+      selectedSection.classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
             </div>
         </section>
 
